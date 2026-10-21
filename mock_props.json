@@ -1,0 +1,117 @@
+{
+  "NBA": [
+    {
+      "id": "nba_lebron_points",
+      "player": {"id": "lebron", "name": "LeBron James", "team": "LAL", "position": "SF"},
+      "market": "points",
+      "lines": [
+        {"platform": "PrizePicks", "line": 25.5},
+        {"platform": "Underdog", "line": 24.5},
+        {"platform": "Sleeper", "line": 25.5},
+        {"platform": "Kalshi", "line": 26.0, "odds": -110}
+      ],
+      "historical": [
+        {"date": "2026-10-18", "value": 28, "opponent": "GSW"},
+        {"date": "2026-10-16", "value": 24, "opponent": "DEN"},
+        {"date": "2026-10-14", "value": 31, "opponent": "PHX"},
+        {"date": "2026-10-12", "value": 22, "opponent": "MIN"},
+        {"date": "2026-10-10", "value": 27, "opponent": "SAC"},
+        {"date": "2026-10-08", "value": 29, "opponent": "DAL"},
+        {"date": "2026-10-06", "value": 26, "opponent": "HOU"},
+        {"date": "2026-10-04", "value": 21, "opponent": "OKC"}
+      ]
+    },
+    {
+      "id": "nba_jokic_assists",
+      "player": {"id": "jokic", "name": "Nikola Jokic", "team": "DEN", "position": "C"},
+      "market": "assists",
+      "lines": [
+        {"platform": "PrizePicks", "line": 9.5},
+        {"platform": "Underdog", "line": 10.5},
+        {"platform": "Sleeper", "line": 9.5},
+        {"platform": "Kalshi", "line": 9.5, "odds": -105}
+      ],
+      "historical": [
+        {"date": "2026-10-18", "value": 11, "opponent": "LAL"},
+        {"date": "2026-10-16", "value": 8, "opponent": "OKC"},
+        {"date": "2026-10-14", "value": 12, "opponent": "MIN"},
+        {"date": "2026-10-12", "value": 9, "opponent": "PHX"},
+        {"date": "2026-10-10", "value": 10, "opponent": "GSW"},
+        {"date": "2026-10-08", "value": 13, "opponent": "SAC"}
+      ]
+    },
+    {
+      "id": "nba_curry_threes",
+      "player": {"id": "curry", "name": "Stephen Curry", "team": "GSW", "position": "PG"},
+      "market": "threes",
+      "lines": [
+        {"platform": "PrizePicks", "line": 4.5},
+        {"platform": "Underdog", "line": 4.5},
+        {"platform": "Sleeper", "line": 5.5},
+        {"platform": "Kalshi", "line": 4.5, "odds": -120}
+      ],
+      "historical": [
+        {"date": "2026-10-18", "value": 6, "opponent": "LAL"},
+        {"date": "2026-10-16", "value": 5, "opponent": "SAC"},
+        {"date": "2026-10-14", "value": 3, "opponent": "PHX"},
+        {"date": "2026-10-12", "value": 7, "opponent": "MIN"},
+        {"date": "2026-10-10", "value": 4, "opponent": "DEN"}
+      ]
+    },
+    {
+      "id": "nba_giannis_points",
+      "player": {"id": "giannis", "name": "Giannis Antetokounmpo", "team": "MIL", "position": "PF"},
+      "market": "points",
+      "lines": [
+        {"platform": "PrizePicks", "line": 30.5},
+        {"platform": "Underdog", "line": 31.5},
+        {"platform": "Sleeper", "line": 30.5}
+      ],
+      "historical": [
+        {"date": "2026-10-18", "value": 34, "opponent": "CHI"},
+        {"date": "2026-10-16", "value": 29, "opponent": "BOS"},
+        {"date": "2026-10-14", "value": 32, "opponent": "IND"},
+        {"date": "2026-10-12", "value": 28, "opponent": "DET"},
+        {"date": "2026-10-10", "value": 36, "opponent": "CLE"}
+      ]
+    }
+  ],
+  "NFL": [
+    {
+      "id": "nfl_mahomes_pass",
+      "player": {"id": "mahomes", "name": "Patrick Mahomes", "team": "KC", "position": "QB"},
+      "market": "passing_yards",
+      "lines": [
+        {"platform": "PrizePicks", "line": 275.5},
+        {"platform": "Underdog", "line": 270.5},
+        {"platform": "Sleeper", "line": 272.5},
+        {"platform": "Kalshi", "line": 280.0, "odds": -105}
+      ],
+      "historical": [
+        {"date": "2026-10-19", "value": 312, "opponent": "LV"},
+        {"date": "2026-10-12", "value": 268, "opponent": "DEN"},
+        {"date": "2026-10-05", "value": 291, "opponent": "BUF"},
+        {"date": "2026-09-28", "value": 245, "opponent": "LAC"},
+        {"date": "2026-09-21", "value": 305, "opponent": "NE"},
+        {"date": "2026-09-14", "value": 288, "opponent": "CIN"}
+      ]
+    },
+    {
+      "id": "nfl_cmc_rush",
+      "player": {"id": "cmc", "name": "Christian McCaffrey", "team": "SF", "position": "RB"},
+      "market": "rushing_yards",
+      "lines": [
+        {"platform": "PrizePicks", "line": 85.5},
+        {"platform": "Underdog", "line": 82.5},
+        {"platform": "Sleeper", "line": 87.5}
+      ],
+      "historical": [
+        {"date": "2026-10-19", "value": 98, "opponent": "SEA"},
+        {"date": "2026-10-12", "value": 76, "opponent": "ARI"},
+        {"date": "2026-10-05", "value": 112, "opponent": "LAR"},
+        {"date": "2026-09-28", "value": 91, "opponent": "DAL"},
+        {"date": "2026-09-21", "value": 68, "opponent": "NYG"}
+      ]
+    }
+  ]
+}
